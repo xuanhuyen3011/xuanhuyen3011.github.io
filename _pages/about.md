@@ -12,7 +12,7 @@ redirect_from:
 
 🔸 With a Master's degree in IT, focusing on data analytics and engineering, I'm well-prepared to navigate the dynamic world of technology. Currently, I'm making a shift from my successful journey in recruitment to dive headfirst into the fascinating field of IT. This transition brings with it a new perspective and an eagerness to embrace fresh challenges.
 
-🔸 When I'm not immersed in code or data, you'll often find me hitting the gym, where I find both physical and mental rejuvenation. I'm also a sucker for binge-watching TV shows like "Physical 100" and "The Mentalist," drawn to their mix of intrigue and excitement.
+🔸 When I'm not immersed in code or data, you'll often find me hitting the gym, where I find both physical and mental rejuvenation. I'm also quite the fan of binge-watching TV shows like "Physical 100" and "The Mentalist," drawn to their mix of intrigue and excitement.
 
 🔸 Beyond that, I'm all about quality time with friends, whether it's exploring new hiking trails or simply hanging out and enjoying good company. With a passion for fitness, technology, and adventure, I'm ready to bring my unique blend of skills and interests to the forefront of the IT world.
 
