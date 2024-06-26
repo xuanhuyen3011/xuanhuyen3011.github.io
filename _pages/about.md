@@ -8,13 +8,13 @@ redirect_from:
 ---
 
 
-🔸 Hey, I'm Huyen, and I'm all about diving deep into the world of technology to unravel complex problems and create efficient solutions. Whether it's delving into data analytics or engineering innovative software, I thrive on the challenge.
+🔸 Hey, I'm Huyen, and I'm all about diving deep into the world of technology to unravel complex problems and create efficient solutions. Whether it's delving into data analytics or engineering innovative software, I thrive on the challenge. With a recent Master's degree in IT, focusing on data analytics and engineering, I'm eager to join the dynamic world of technology.
 
-🔸 With a Master's degree in IT, focusing on data analytics and engineering, I'm well-prepared to navigate the dynamic world of technology. Currently, I'm making a shift from my successful journey in recruitment to dive headfirst into the fascinating field of IT. This transition brings with it a new perspective and an eagerness to embrace fresh challenges.
+🔸 When I'm not immersed in code or data, you'll often find me hitting the gym, where I find both physical and mental rejuvenation. I'm also quite the fan of binge-watching TV shows like "Physical 100" and "The Mentalist," drawn to their mix of excitement.
 
-🔸 When I'm not immersed in code or data, you'll often find me hitting the gym, where I find both physical and mental rejuvenation. I'm also quite the fan of binge-watching TV shows like "Physical 100" and "The Mentalist," drawn to their mix of intrigue and excitement.
+🔸 Beyond that, I'm all about quality time with friends, whether it's exploring new hiking trails or simply hanging out and enjoying good company 😊😊.
 
-🔸 Beyond that, I'm all about quality time with friends, whether it's exploring new hiking trails or simply hanging out and enjoying good company. With a passion for fitness, technology, and adventure, I'm ready to bring my unique blend of skills and interests to the forefront of the IT world.
+🔸 Check out my CV [here](files/Resume_Huyen Nguyen.pdf)
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
