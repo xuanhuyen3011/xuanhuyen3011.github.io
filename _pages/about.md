@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-🔸 Hey, I'm Huyen, and I'm all about diving deep into the world of technology to unravel complex problems and create efficient solutions. Whether it's delving into data analytics or engineering innovative software, I thrive on the challenge. With a recent Master's degree in IT, focusing on data analytics and engineering, I'm eager to join the dynamic world of technology.
+🔸 Hey, I'm Huyen, and I'm all about diving deep into the world of technology to unravel complex problems and create efficient solutions. I'm energized by tackling complex tasks, from analyzing data to creating cutting-edge software solutions. With a recent Master's degree in IT, focusing on data analytics and engineering, I'm eager to join the dynamic world of technology.
 
 🔸 When I'm not immersed in code or data, you'll often find me hitting the gym, where I find both physical and mental rejuvenation. I'm also quite the fan of binge-watching TV shows like "Physical 100" and "The Mentalist," drawn to their mix of excitement.
 
