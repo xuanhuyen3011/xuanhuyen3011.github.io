@@ -12,6 +12,7 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,99 +52,179 @@ img {vertical-align: middle;}
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a grey background color */
+/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: #f1f1f1;
-  color: black;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Add styles for the caption and number text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 1;
+}
+
+/* Add styles for the dots */
+.dot-container {
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
 </style>
 </head>
 <body>
 
-<!-- <h1 style="text-align:center">My projects</h1> -->
-
-<!-- <p>Twitter Account Classification</p> -->
+<!-- PROJECT 1 -->
 <div class="slideshow-container">
   <h2 style="text-align:center">Twitter Account Classification</h2>
-  <div class="mySlides1">
+  <div class="mySlides1 fade">
+    <!-- <div class="numbertext">1 / 3</div> -->
     <img src="/images/2._Twitter_account_classification.png" style="width:100%">
+    <!-- <div class="text">Caption Text</div> -->
   </div>
 
-  <div class="mySlides1">
+  <div class="mySlides1 fade">
     <img src="/images/1._Twitter_account_classification.png" style="width:100%">
   </div>
 
-  <div class="mySlides1">
+  <div class="mySlides1 fade">
     <img src="/images/3._Twitter_account_classification.png" style="width:100%">
   </div>
 
-  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1, 0)">❮</a>
+  <a class="next" onclick="plusSlides(1, 0)">❯</a>
 </div>
 
+<!-- Add dot indicators -->
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1, 0)"></span> 
+  <span class="dot" onclick="currentSlide(2, 0)"></span> 
+  <span class="dot" onclick="currentSlide(3, 0)"></span> 
+</div>
+
+
+<!-- Description -->
 <div style="margin: 20px;">
-  <h3>Built with: Python (pandas, scikit-learn, NumPy)</h3>
-  <ul>
-      <li>Executed comprehensive data pre-processing on Twitter datasets, including stratified splitting to preserve account type distribution, and developed the cleanTweet function to improve text quality for model input.</li>
-      <li>Employed a bag of words model with logistic regression for account classification, fine-tuned parameters for optimal performance, and analyzed keywords to distinguish between human and non-human accounts.</li>
-      <li><a href="https://github.com/xuanhuyen3011/twitter_classification" target="_blank">Check it out on GitHub</a></li>
-  </ul>
-</div>
+    <h3>Built with: Python (pandas, scikit-learn, NumPy)</h3>
+    <ul>
+        <li>Executed comprehensive data pre-processing on Twitter datasets, including stratified splitting to preserve account type distribution, and developed the cleanTweet function to improve text quality for model input.</li>
+        <li>Employed a bag of words model with logistic regression for account classification, fine-tuned parameters for optimal performance, and analyzed keywords to distinguish between human and non-human accounts.</li>
+        <li><a href="https://github.com/xuanhuyen3011/twitter_classification" target="_blank">Check it out on GitHub</a></li>
+    </ul>
+  </div>
 
-<!-- <p>Precision-Tolerant Database System (Capstone project)</p> -->
+<!-- PROJECT 2 -->
+  <div class="slideshow-container">
+    <h2 style="text-align:center">Precision-Tolerant Database System (Capstone project)</h2>
+    <div class="mySlides2 fade">
+      <img src="/images/1._Capstone.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides2 fade">
+      <img src="/images/2._Capstone.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides2 fade">
+      <img src="/images/3._Capstone.png" style="width:100%">
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+  </div>
+
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1, 1)"></span> 
+    <span class="dot" onclick="currentSlide(2, 1)"></span> 
+    <span class="dot" onclick="currentSlide(3, 1)"></span> 
+  </div>
+
+
+  <div style="margin: 20px;">
+    <h3>Built with: MySQL</h3>
+    <ul>
+        <li>Research into flexible database systems that accommodate imprecise data, challenging traditional relational models to improve data retention and query accuracy while maintaining integrity.</li>
+        <li>Developing precision-tolerant database systems that retain imprecise data violating Numerical Conditional Constraints, extending existing DBMSs to improve data retention and query handling while exploring cost-saving benefits and analytics enhancements.</li>
+        <li><a href="https://github.com/xuanhuyen3011/Precision-Tolerant-Database-Systems" target="_blank">Check it out on GitHub</a></li>
+    </ul>
+  </div>
+
+
+<!-- PROJECT 3 -->
+
 <div class="slideshow-container">
-  <h2 style="text-align:center">Precision-Tolerant Database System (Capstone project)</h2>
-  <div class="mySlides2">
-    <img src="/images/1._Capstone.png" style="width:100%">
+    <h2 style="text-align:center">Ecommerce Data Insights</h2>
+    <div class="mySlides3 fade">
+      <img src="/images/1._dbt.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides3 fade">
+      <img src="/images/2._Snowflake.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides3 fade">
+      <img src="/images/3._Airflow.png" style="width:100%">
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
   </div>
 
-  <div class="mySlides2">
-    <img src="/images/2._Capstone.png" style="width:100%">
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1, 2)"></span> 
+    <span class="dot" onclick="currentSlide(2, 2)"></span> 
+    <span class="dot" onclick="currentSlide(3, 2)"></span> 
+  </div>
+  
+  <div style="margin: 20px;">
+    <h3>Built with: dbt, Snowflake, Apache Airflow, SQL</h3>
+    <ul>
+        <li>Comprehensive hands-on project integrating dbt (data build tool) with Snowflake, focusing on advanced data transformation and deployment techniques to enhance data pipeline efficiency and reliability.</li>
+        <li>Key steps executed: environment setup, dbt configuration, model creation and transformation, implementation of macro functions and testing protocols, culminating in Airflow-based model deployment for streamlined data workflows.</li>
+        <li><a href="https://github.com/xuanhuyen3011/ecom_analytics_dag" target="_blank">Check it on via GitHub</a></li>
+    </ul>
   </div>
 
-  <div class="mySlides2">
-    <img src="/images/3._Capstone.png" style="width:100%">
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-</div>
-<div style="margin: 20px;">
-  <h3>Built with: MySQL</h3>
-  <ul>
-      <li>Research into flexible database systems that accommodate imprecise data, challenging traditional relational models to improve data retention and query accuracy while maintaining integrity.</li>
-      <li>Developing precision-tolerant database systems that retain imprecise data violating Numerical Conditional Constraints, extending existing DBMSs to improve data retention and query handling while exploring cost-saving benefits and analytics enhancements.</li>
-      <li><a href="https://github.com/xuanhuyen3011/Precision-Tolerant-Database-Systems" target="_blank">Check it out on GitHub</a></li>
-  </ul>
-</div>
-
-
-<div class="slideshow-container">
-  <h2 style="text-align:center">Ecommerce Data Insights</h2>
-  <div class="mySlides3">
-    <img src="/images/1._dbt.png" style="width:100%">
-  </div>
-
-  <div class="mySlides3">
-    <img src="/images/2._Snowflake.png" style="width:100%">
-  </div>
-
-  <div class="mySlides3">
-    <img src="/images/3._Airflow.png" style="width:100%">
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-</div>
-
-<div style="margin: 20px;">
-  <h3>Built with: dbt, Snowflake, Apache Airflow, SQL</h3>
-  <ul>
-      <li>Comprehensive hands-on project integrating dbt (data build tool) with Snowflake, focusing on advanced data transformation and deployment techniques to enhance data pipeline efficiency and reliability.</li>
-      <li>Key steps executed: environment setup, dbt configuration, model creation and transformation, implementation of macro functions and testing protocols, culminating in Airflow-based model deployment for streamlined data workflows.</li>
-      <li><a href="https://github.com/xuanhuyen3011/ecom_analytics_dag" target="_blank">Check it on via GitHub</a></li>
-  </ul>
-</div>
 
 <script>
 let slideIndex = [1,1,1];
@@ -152,21 +233,32 @@ showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
 
+function currentSlide(n, no) {
+  showSlides(slideIndex[no] = n, no);
+}
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
 }
-
+// Add the showSlides function that includes the caption and indicator updates
 function showSlides(n, no) {
   let i;
   let x = document.getElementsByClassName(slideId[no]);
+  let dots = document.getElementsByClassName("dot");
+  
   if (n > x.length) {slideIndex[no] = 1}    
   if (n < 1) {slideIndex[no] = x.length}
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";  
   }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+
   x[slideIndex[no]-1].style.display = "block";  
+  dots[slideIndex[no]-1].className += " active";
+  
 }
 </script>
 
 </body>
-</html> 
+</html>
