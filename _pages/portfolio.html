@@ -76,6 +76,17 @@ img {vertical-align: middle;}
 .active, .dot:hover {
   background-color: #717171;
 }
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
 </style>
 </head>
 <body>
@@ -85,15 +96,15 @@ img {vertical-align: middle;}
 <!-- <p>Twitter Account Classification</p> -->
 <div class="slideshow-container">
   <h2 style="text-align:center">Twitter Account Classification</h2>
-  <div class="mySlides1">
+  <div class="mySlides1 fade">
     <img src="/images/2._Twitter_account_classification.png" style="width:100%">
   </div>
 
-  <div class="mySlides1">
+  <div class="mySlides1 fade">
     <img src="/images/1._Twitter_account_classification.png" style="width:100%">
   </div>
 
-  <div class="mySlides1">
+  <div class="mySlides1 fade">
     <img src="/images/3._Twitter_account_classification.png" style="width:100%">
   </div>
 
